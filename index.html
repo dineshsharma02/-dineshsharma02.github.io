@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinesh Sharma</title>
+    <!-- <link rel="stylesheet" href="themes/bootstrap.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" id="switcher-id" href="" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/theme/theme.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Dinesh</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor03"
+          aria-controls="navbarColor03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                >Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactme">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- themeswitches  -->
+    <br />
+    <div class="theme-switches">
+      <div data-theme="light" id="switch-1" class="switch"></div>
+
+      <div data-theme="sky" class="switch" id="switch-2"></div>
+
+      <div data-theme="purple" class="switch" id="switch-3"></div>
+
+      <div data-theme="dark" class="switch" id="switch-4"></div>
+    </div>
+
+    <!-- home  -->
+    <br /><br /><br />
+
+    <section class="site-banner">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img
+            class="profile_image"
+            src="images/dinesh_prof_pic-removebg-preview-removebg-preview.jpg"
+            alt="banner-img"
+            class="img-fluid"
+          />
+        </div>
+
+        <!-- col-lg-6  -->
+        <div class="col-md-3 site-title m-2">
+          <h3 class="title-text mb-2" style="font-size: 45px">Hey</h3>
+          <h1 class="title-text mb-1text-uppercase" style="font-size: 65px">
+            I am Dinesh
+          </h1>
+          <h4 class="title-text mb-2 text-uppercase" style="font-size: 25px">
+            Full stack web developer
+          </h4>
+          <div class="site-buttons">
+            <div class="d-flex flex-row flex-wrap">
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="#contactme" class="btn btn-primary text-uppercase"
+                    >Contact</a
+                  >
+                </div>
+                <div class="col-md-6">
+                  <a
+                    href="Dinesh_resume.pdf"
+                    class="btn btn-info text-uppercase"
+                    target="_blank"
+                    >get cv</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br><br><br>
+
+    <!-- about me  -->
+
+
+    <section class="mt-5" id ="about">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-6 ">
+                  <div class="about-image">
+                      <img src="images/about-us.png" alt="About us" class="img-fluid">
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12 about-title">
+                  <h2 class="text-uppercase pt-5">
+                      <span>Let me</span>
+                      <span>introduce</span>
+                      <span>myself</span>
+                  </h2>
+                  <div class="paragraph py-4 w-75">
+                      <p class="para">
+                        I am currently a pre-final year student pursuing B.Tech in
+                        Computer Science from Vellore institute of technology.
+                      </p>
+                      <p class="para">
+                        
+                        Equipped with a diverse and promising skill-set and
+                        proficient in various platforms, languages and embedded
+                        systems. Able to effectively self-manage during independent
+                        projects, as well as collaborate as part of a productive team.
+                      </p>
+                  </div>
+                  <a href="Dinesh_resume.pdf" target="_blank" class="btn btn-primary text-uppercase">Download cv</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
+    <!-- Education section  -->
+    <section class="mt-5">
+      <div class="container" id="education">
+        <h2>Education <i class="fas fa-user-graduate"></i></h2>
+        <br />
+        <div class="row">
+          <div class="col-md-4 mb-2">
+            <div class="card" style="width: 18rem;height: 550px;">
+              <img
+                class="card-img-top"
+                src="images/vit_logo.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Vellore Institute of Technology</h4>
+                <p class="card-text">
+                  Engineering at VIT is not only study of 45 subjects but it is moral
+                  studies of intellectual life.
+                </p>
+                <a class="link-text" href="https://vit.ac.in/">
+                  <h5>About VIT <i class="fab fa-readme"></i></h5>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-2">
+            <div class="card" style="width: 18rem;height: 550px;">
+              <img
+                class="card-img-top"
+                src="images/bps-logo.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Bhartiya Public School</h4>
+                <p class="card-text">
+                  People Just Don’t Know It Yet But School Is One Of The Best Places In This Planet To Exist Peacefully.
+                </p>
+                <a class="link-text" href="http://bpssikar.org/">
+                  <h5>About Bhartiya <i class="fab fa-readme"></i></h5>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-2">
+            <div class="card" style="width: 18rem;height: 550px;">
+              <img
+                class="card-img-top"
+                src="images/allen-logo.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Allen Carrer Institute,Kota</h4>
+                <p class="card-text">
+                  At Allen We Got To Know The Distance Between Dreams And Reality is Called Action.
+                </p>
+                <a class="link-text" href="https://www.allen.ac.in/">
+                  <h5>About Allen<i class="fab fa-readme"></i></h5>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
+          <div class="card-wrapper">
+            <div id="card-2" class="card card-rotating text-center">
+              Front Side
+              <div class="face front">
+                Image
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="images/vit_logo.jpg"
+                    alt="Example photo"
+                  />
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                Content
+                <div class="card-body">
+                  <h4 class="">Vellore Institute of Technology</h4>
+                  <p class="card-text">
+                    Engineering is not only study of 45 subjects but it is moral
+                    studies of intellectual life.
+                  </p>
+                  <a class="link-text" href="https://vit.ac.in/">
+                    <h5>Read more <i class="fab fa-readme"></i></h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="mt-5">
+      <div class="container" id="skills">
+        <h2>Skills<i class="fas fa-tools"></i></h2>
+
+        <label for="">Django</label>
+        <div class="progress m-2">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            aria-valuenow="85"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 85%"
+          ></div>
+        </div>
+        <label for="">HTML</label>
+        <div class="progress m-2">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 80%"
+          ></div>
+        </div>
+        <label for="">CSS</label>
+        <div class="progress m-2">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 75%"
+          ></div>
+        </div>
+        <label for="">JavaScript</label>
+        <div class="progress m-2">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 80%"
+          ></div>
+        </div>
+        <label for="">Python</label>
+        <div class="progress m-2">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            aria-valuenow="90"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 90%"
+          ></div>
+        </div>
+        <label for="">Java</label>
+        <div class="progress m-2">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 80%"
+          ></div>
+        </div>
+        <label for="">SQL</label>
+        <div class="progress m-2">
+          <div
+            class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar"
+            aria-valuenow="60"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style="width: 60%"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="mt-5">
+      <div class="container">
+        <div class="project-title pb-5">
+          <h2 class="text-uppercase title-h1">Recently done Projects<i class="far fa-file-code"></i></h2>
+          <!-- <h1 class="text-uppercase title-h1">Quality Work</h1> -->
+        </div>
+
+        <div class="row grid">
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+            <div class="our-project">
+              <div class="img hover-zoom">
+                <a class="test-popup-link" href="http://expenseviewerapp.herokuapp.com/">
+                  <img
+                    src="expenseswebsite/banner.png"
+                    alt="portfolio-1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Expense Viewer website</h4>
+                <span class="text-secondary">Solution to manage all your expenses and income accounts.</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+            <div class="our-project">
+              <div class="img hover-zoom">
+                <a class="test-popup-link" href="https://github.com/dineshsharma02/to-do-app">
+                  <img
+                    src="todo screenshots/tasklist.png"
+                    alt="portfolio-2"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">To-Do Website</h4>
+                <span class="text-secondary">Django app to manage your daily tasks.</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="mt-5">
+      <div class="container" id="achievements">
+        <div class="project-title pb-5">
+          <h1 class="text-uppercase title-h1">Achievements<i class="fas fa-medal"></i></h1>
+        </div>
+
+        <div class="row grid">
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+            <div class="our-project">
+              <div class="img hover-zoom">
+                <a class="test-popup-link" href="https://www.udemy.com/certificate/UC-0dbe23d9-ed04-47a6-9cc9-9e9b3a0c8839/" target="_blank">
+                  <img
+                    src="images/udemy_logo.png"
+                    width="300px"
+                    alt="portfolio-1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Certification in Python Developement</h4>
+                <span class="text-secondary"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+            <div class="our-project">
+              <div class="img hover-zoom">
+                <a class="test-popup-link" href="https://www.hackerrank.com/dineshsharma02" target="_blank"> 
+                  <img
+                    src="images/hackerrank-logo.png"
+                    width="300px"
+                    alt="portfolio-2"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">HackerRank 5 star java developer</h4>
+                <span class="text-secondary"></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+            <div class="our-project">
+              <div class="img hover-zoom">
+                <a class="test-popup-link" href="https://www.udemy.com/certificate/UC-848cab8f-821a-48e8-8698-7981d0bafa2f/" target="_blank">
+                  <img
+                    src="images/udemy_logo.png"
+                    width="300px"
+                    alt="portfolio-2"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Certification in Django Developement</h4>
+                <span class="text-secondary"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- dummy  -->
+
+    
+
+    <!-- contact me form  -->
+    <div class="container contact-form" id="contactme">
+      <!-- <div class="contact-image">
+          <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+      </div> -->
+      
+      <form action="https://formsubmit.co/itsdinesh02@gmail.com" method="POST" style="width: 100%;">
+        <h3>Drop Me a Message</h3>
+        
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group" >
+              <input
+                type="text"
+                name="Name"
+                required
+                class="form-control"
+                placeholder="Your Name *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="Email"
+                required
+                class="form-control"
+                placeholder="Your Email *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="Phone"
+                required
+                class="form-control"
+                placeholder="Your Phone Number *"
+                value=""
+              />
+            </div>
+            
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea
+                name="Msg"
+                required
+                class="form-control"
+                placeholder="Your Message *"
+                style="width: 100%; height: 150px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="container">
+            <div class="form-group">
+              <input
+                type="submit"
+                name="btnmessagesubmit"
+                class="btn btn-primary"
+                value="Send Message"
+              />
+            </div>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5555/thanks.html">
+            <input type="hidden" name="_subject" value="New portfolio message!">
+            <input type="hidden" name="_captcha" value="false">
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

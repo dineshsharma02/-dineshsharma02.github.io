@@ -13,7 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" id="switcher-id" href="" />
+    <link rel="stylesheet" id="switcher-id" href="themes/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
@@ -22,6 +22,7 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    
     <script src="js/theme/theme.js"></script>
     <script src="js/main.js"></script>
     <script
@@ -31,6 +32,7 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
   </head>
   <body>
     <!-- navbar  -->
@@ -96,87 +98,91 @@
     <br /><br /><br />
 
     <section class="site-banner">
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <img
-            class="profile_image"
-            src="images/dinesh_prof_pic-removebg-preview-removebg-preview.jpg"
-            alt="banner-img"
-            class="img-fluid"
-          />
-        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 profile-column mb-2">
+            <img
+              class="profile_image"
+              src="images/dinesh_prof_pic-removebg-preview-removebg-preview.jpg"
+              alt="banner-img"
+              class="img-fluid"
+            />
+          </div>
 
-        <!-- col-lg-6  -->
-        <div class="col-md-3 site-title m-2">
-          <h3 class="title-text mb-2" style="font-size: 45px">Hey</h3>
-          <h1 class="title-text mb-1text-uppercase" style="font-size: 65px">
-            I am Dinesh
-          </h1>
-          <h4 class="title-text mb-2 text-uppercase" style="font-size: 25px">
-            Full stack web developer
-          </h4>
-          <div class="site-buttons">
-            <div class="d-flex flex-row flex-wrap">
-              <div class="row">
-                <div class="col-md-6">
-                  <a href="#contactme" class="btn btn-primary text-uppercase"
-                    >Contact</a
-                  >
-                </div>
-                <div class="col-md-6">
-                  <a
-                    href="Dinesh_resume.pdf"
-                    class="btn btn-info text-uppercase"
-                    target="_blank"
-                    >get cv</a
-                  >
-                </div>
+          <!--   -->
+          <div class="col-lg-6 site-title mb-2">
+            <h3 class="title-text mb-2" style="font-size: 45px">Hey</h3>
+            <h1 class="title-text mb-1text-uppercase" style="font-size: 65px">
+              I am Dinesh
+            </h1>
+            <h4 class="title-text mb-2 text-uppercase" style="font-size: 25px">
+              Full stack web developer
+            </h4>
+            <div class="site-buttons mt-4">
+              <div class="d-flex flex-row flex-wrap">
+                <!-- <div class="row"> -->
+                <!-- <div class="col-md-12"> -->
+                <a
+                  href="#contactme"
+                  class="btn btn-primary text-uppercase inline"
+                  >Contact</a
+                >
+                <!-- </div> -->
+                <!-- <div class="col-md-12"> -->
+                <a
+                  href="Dinesh_resume.pdf"
+                  class="btn btn-info text-uppercase inline"
+                  target="_blank"
+                  >get cv</a
+                >
+                <!-- </div> -->
+                <!-- </div> -->
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <br><br><br><br>
+    <br /><br /><br /><br />
 
     <!-- about me  -->
 
-
-    <section class="mt-5" id ="about">
+    <section class="mt-5" id="about">
       <div class="container-fluid">
-          <div class="row">
-              <div class="col-lg-6 ">
-                  <div class="about-image">
-                      <img src="images/about-us.png" alt="About us" class="img-fluid">
-                  </div>
-              </div>
-              <div class="col-lg-6 col-md-12 about-title">
-                  <h2 class="text-uppercase pt-5">
-                      <span>Let me</span>
-                      <span>introduce</span>
-                      <span>myself</span>
-                  </h2>
-                  <div class="paragraph py-4 w-75">
-                      <p class="para">
-                        I am currently a pre-final year student pursuing B.Tech in
-                        Computer Science from Vellore institute of technology.
-                      </p>
-                      <p class="para">
-                        
-                        Equipped with a diverse and promising skill-set and
-                        proficient in various platforms, languages and embedded
-                        systems. Able to effectively self-manage during independent
-                        projects, as well as collaborate as part of a productive team.
-                      </p>
-                  </div>
-                  <a href="Dinesh_resume.pdf" target="_blank" class="btn btn-primary text-uppercase">Download cv</a>
-              </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about-image">
+              <img src="images/about-us.png" alt="About us" class="img-fluid" />
+            </div>
           </div>
+          <div class="col-lg-6 col-md-12 about-title">
+            <h2 class="text-uppercase pt-5">
+              <span>Let me</span>
+              <span>introduce</span>
+              <span>myself</span>
+            </h2>
+            <div class="paragraph py-4 w-75">
+              <p class="para">
+                I am currently a pre-final year student pursuing B.Tech in
+                Computer Science from Vellore institute of technology.
+              </p>
+              <p class="para">
+                Equipped with a diverse and promising skill-set and proficient
+                in various platforms, languages and embedded systems. Able to
+                effectively self-manage during independent projects, as well as
+                collaborate as part of a productive team.
+              </p>
+            </div>
+            <a
+              href="Dinesh_resume.pdf"
+              target="_blank"
+              class="btn btn-primary text-uppercase"
+              >Download cv</a
+            >
+          </div>
+        </div>
       </div>
-  </section>
-
-
-
+    </section>
 
     <!-- Education section  -->
     <section class="mt-5">
@@ -185,7 +191,7 @@
         <br />
         <div class="row">
           <div class="col-md-4 mb-2">
-            <div class="card" style="width: 18rem;height: 550px;">
+            <div class="card" style="width: 18rem; height: 550px">
               <img
                 class="card-img-top"
                 src="images/vit_logo.jpg"
@@ -194,8 +200,8 @@
               <div class="card-body text-center">
                 <h4 class="card-title">Vellore Institute of Technology</h4>
                 <p class="card-text">
-                  Engineering at VIT is not only study of 45 subjects but it is moral
-                  studies of intellectual life.
+                  Engineering at VIT is not only study of 45 subjects but it is
+                  moral studies of intellectual life.
                 </p>
                 <a class="link-text" href="https://vit.ac.in/">
                   <h5>About VIT <i class="fab fa-readme"></i></h5>
@@ -205,7 +211,7 @@
           </div>
 
           <div class="col-md-4 mb-2">
-            <div class="card" style="width: 18rem;height: 550px;">
+            <div class="card" style="width: 18rem; height: 550px">
               <img
                 class="card-img-top"
                 src="images/bps-logo.jpg"
@@ -214,7 +220,8 @@
               <div class="card-body text-center">
                 <h4 class="card-title">Bhartiya Public School</h4>
                 <p class="card-text">
-                  People Just Don’t Know It Yet But School Is One Of The Best Places In This Planet To Exist Peacefully.
+                  People Just Don’t Know It Yet But School Is One Of The Best
+                  Places In This Planet To Exist Peacefully.
                 </p>
                 <a class="link-text" href="http://bpssikar.org/">
                   <h5>About Bhartiya <i class="fab fa-readme"></i></h5>
@@ -224,7 +231,7 @@
           </div>
 
           <div class="col-md-4 mb-2">
-            <div class="card" style="width: 18rem;height: 550px;">
+            <div class="card" style="width: 18rem; height: 550px">
               <img
                 class="card-img-top"
                 src="images/allen-logo.jpg"
@@ -233,7 +240,8 @@
               <div class="card-body text-center">
                 <h4 class="card-title">Allen Carrer Institute,Kota</h4>
                 <p class="card-text">
-                  At Allen We Got To Know The Distance Between Dreams And Reality is Called Action.
+                  At Allen We Got To Know The Distance Between Dreams And
+                  Reality is Called Action.
                 </p>
                 <a class="link-text" href="https://www.allen.ac.in/">
                   <h5>About Allen<i class="fab fa-readme"></i></h5>
@@ -364,52 +372,69 @@
 
     <hr />
 
-
-
     <!-- Projects -->
     <section id="projects" class="mt-5">
       <div class="container">
         <div class="project-title pb-5">
-          <h2 class="text-uppercase title-h1">Recently done Projects<i class="far fa-file-code"></i></h2>
+          <h2 class="text-uppercase title-h1">
+            Recently done Projects<i class="far fa-file-code"></i>
+          </h2>
           <!-- <h1 class="text-uppercase title-h1">Quality Work</h1> -->
         </div>
 
         <div class="row grid">
           <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
             <div class="our-project">
-              <div class="img hover-zoom">
-                <a class="test-popup-link" href="http://expenseviewerapp.herokuapp.com/">
-                  <img
-                    src="expenseswebsite/banner.png"
-                    alt="portfolio-1"
-                    class="img-fluid"
-                  />
-                </a>
+              <div class="img hover-zoom hover01">
+                <figure>
+                  <a
+                    class="test-popup-link"
+                    href="http://expenseviewerapp.herokuapp.com/"
+                  >
+                  <span data-tilt>
+                    <img
+                      src="expenseswebsite/banner.png"
+                      alt="portfolio-1"
+                      class="img-fluid"
+                    />
+                  </span>
+                  </a>
+                </figure>
               </div>
               <div class="title py-4">
                 <h4 class="text-uppercase">Expense Viewer website</h4>
-                <span class="text-secondary">Solution to manage all your expenses and income accounts.</span>
+                <span class="text-secondary"
+                  >Solution to manage all your expenses and income
+                  accounts.</span
+                >
               </div>
             </div>
           </div>
+          
           <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
             <div class="our-project">
               <div class="img hover-zoom">
-                <a class="test-popup-link" href="https://github.com/dineshsharma02/to-do-app">
+                
+                <a
+                  class="test-popup-link"
+                  href="https://github.com/dineshsharma02/to-do-app"
+                >
                   <img
                     src="todo screenshots/tasklist.png"
                     alt="portfolio-2"
                     class="img-fluid"
                   />
                 </a>
+              
               </div>
               <div class="title py-4">
                 <h4 class="text-uppercase">To-Do Website</h4>
-                <span class="text-secondary">Django app to manage your daily tasks.</span>
+                <span class="text-secondary"
+                  >Django app to manage your daily tasks.</span
+                >
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
@@ -418,14 +443,20 @@
     <section class="mt-5">
       <div class="container" id="achievements">
         <div class="project-title pb-5">
-          <h1 class="text-uppercase title-h1">Achievements<i class="fas fa-medal"></i></h1>
+          <h1 class="text-uppercase title-h1">
+            Achievements<i class="fas fa-medal"></i>
+          </h1>
         </div>
 
         <div class="row grid">
           <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
             <div class="our-project">
               <div class="img hover-zoom">
-                <a class="test-popup-link" href="https://www.udemy.com/certificate/UC-0dbe23d9-ed04-47a6-9cc9-9e9b3a0c8839/" target="_blank">
+                <a
+                  class="test-popup-link"
+                  href="https://www.udemy.com/certificate/UC-0dbe23d9-ed04-47a6-9cc9-9e9b3a0c8839/"
+                  target="_blank"
+                >
                   <img
                     src="images/udemy_logo.png"
                     width="300px"
@@ -435,7 +466,9 @@
                 </a>
               </div>
               <div class="title py-4">
-                <h4 class="text-uppercase">Certification in Python Developement</h4>
+                <h4 class="text-uppercase">
+                  Certification in Python Developement
+                </h4>
                 <span class="text-secondary"></span>
               </div>
             </div>
@@ -443,7 +476,11 @@
           <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
             <div class="our-project">
               <div class="img hover-zoom">
-                <a class="test-popup-link" href="https://www.hackerrank.com/dineshsharma02" target="_blank"> 
+                <a
+                  class="test-popup-link"
+                  href="https://www.hackerrank.com/dineshsharma02"
+                  target="_blank"
+                >
                   <img
                     src="images/hackerrank-logo.png"
                     width="300px"
@@ -461,7 +498,11 @@
           <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
             <div class="our-project">
               <div class="img hover-zoom">
-                <a class="test-popup-link" href="https://www.udemy.com/certificate/UC-848cab8f-821a-48e8-8698-7981d0bafa2f/" target="_blank">
+                <a
+                  class="test-popup-link"
+                  href="https://www.udemy.com/certificate/UC-848cab8f-821a-48e8-8698-7981d0bafa2f/"
+                  target="_blank"
+                >
                   <img
                     src="images/udemy_logo.png"
                     width="300px"
@@ -471,7 +512,9 @@
                 </a>
               </div>
               <div class="title py-4">
-                <h4 class="text-uppercase">Certification in Django Developement</h4>
+                <h4 class="text-uppercase">
+                  Certification in Django Developement
+                </h4>
                 <span class="text-secondary"></span>
               </div>
             </div>
@@ -482,20 +525,22 @@
 
     <!-- dummy  -->
 
-    
-
     <!-- contact me form  -->
     <div class="container contact-form" id="contactme">
       <!-- <div class="contact-image">
           <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
       </div> -->
-      
-      <form action="https://formsubmit.co/itsdinesh02@gmail.com" method="POST" style="width: 100%;">
+
+      <form
+        action="https://formsubmit.co/itsdinesh02@gmail.com"
+        method="POST"
+        style="width: 100%"
+      >
         <h3>Drop Me a Message</h3>
-        
+
         <div class="row">
           <div class="col-md-6">
-            <div class="form-group" >
+            <div class="form-group">
               <input
                 type="text"
                 name="Name"
@@ -525,7 +570,6 @@
                 value=""
               />
             </div>
-            
           </div>
           <div class="col-md-6">
             <div class="form-group">
@@ -547,9 +591,17 @@
                 value="Send Message"
               />
             </div>
-            <input type="hidden" name="_next" value="http://dineshsharma02.github.io/thanks.html">
-            <input type="hidden" name="_subject" value="New portfolio message!">
-            <input type="hidden" name="_captcha" value="false">
+            <input
+              type="hidden"
+              name="_next"
+              value="http://dineshsharma02.github.io/thanks.html"
+            />
+            <input
+              type="hidden"
+              name="_subject"
+              value="New portfolio message!"
+            />
+            <input type="hidden" name="_captcha" value="false" />
           </div>
         </div>
       </form>
